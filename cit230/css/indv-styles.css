@@ -7,9 +7,9 @@ body{color:red;font-family:arial, helvetica;}
               text-indent: 50px;
               padding-top: 30px;
               opacity: .6;
-              width: 100%;
+              width: 80%;
               text-align: left;
               
                 }
-            
-            nav ol li {text-align: center}
+             
+            nav ol {list-style: none; display: flex}
