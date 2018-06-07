@@ -1,15 +1,84 @@
-body{color:red;font-family:arial, helvetica;}
-            header {width:30%;; line-height:100%}
-            
-            nav{
-              color:blue; 
-              background-color:yellow;
-              text-indent: 50px;
-              padding-top: 30px;
-              opacity: .6;
-              width: 80%;
-              text-align: left;
-              
-                }
-             
-            nav ol {list-style: none; display: flex}
+body {
+  color: red;
+  font-family: arial, helvetica;
+}
+
+header {
+  width: 30%;
+  ;
+  line-height: 100%
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  color: blue;
+  background-color: yellow;
+  text-indent: 50px;
+  padding-top: 30px;
+  opacity: .6;
+  text-align: left;
+
+}
+
+nav ol {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-around;
+
+}
+
+.logo {
+  display: inline;
+  
+}
+
+
+main {
+  display: flex;
+  text-align: left;
+  justify-content:space-around;
+  
+  
+}
+
+
+#child2 {
+    display: flex;
+    flex-flow: row nowrap;
+  
+}
+
+
+
+#temple-2A img{
+  width: 20%;
+  
+}
+
+.photos img{
+  width: 20%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+footer ul{
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-around;
+  background-color: yellow;
+  opacity: .6;
+  
+}
+
+
