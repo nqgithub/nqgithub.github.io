@@ -5,50 +5,53 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>the-five-divs-orig.html</title>
     <style type="text/css">
-        div {
-            display: flex;
+        
+      
+      div {
+            
             width: 150px;
             height: 100px;
             border: solid thin;
             font-size: 18px;
         }
       
-        #div1 {
-            top: 30px;
-
-        }
+      .container{
+            display: flex;
+            flex-wrap: wrap;
+            width: 350px;
+            border: none;
+      }
       
-      
-      
+       
       
     </style>
 
 </head>
 
 <body>
+  <div class="container">
+      <div id="div1">
+          this is div one
 
-    <div id="div1">
-        this is div one
+      </div>
 
-    </div>
+      <div id="div2">
+          this is div two
 
-    <div id="div2">
-        this is div two
+      </div>
+      <div id="div3">
+          this is div three
 
-    </div>
-    <div id="div3">
-        this is div three
+      </div>
+      <div id="div4">
+          this is div four
 
-    </div>
-    <div id="div4">
-        this is div four
+      </div>
+      <div id="div5">
+          this is div five
 
-    </div>
-    <div id="div5">
-        this is div five
-
-    </div>
-
+      </div>
+  </div>
 </body>
 
 </html>

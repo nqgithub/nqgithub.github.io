@@ -6,17 +6,43 @@
     <title>the-five-divs-orig.html</title>
     <style type="text/css">
         div {
+            float: left
             width: 150px;
             height: 100px;
             border: solid thin;
             font-size: 18px;
-        }
+          }
+
+
+        #div1{
+          float: left;
+
+          }
+
+        #div2{
+          float: right;    
+          }
+      
+        #div3{
+          clear:both;
+          float: left;  
+          }
+      
+        #div4{
+          float: right; 
+            }
+
+        #div5{
+          clear: both;
+          float: right;   
+          }
+
     </style>
 
 </head>
 
 <body>
-
+  <div>
     <div id="div1">
         this is div one
 
@@ -38,7 +64,7 @@
         this is div five
 
     </div>
-
+  </div>
 </body>
 
 </html>
