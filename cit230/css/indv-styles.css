@@ -105,10 +105,10 @@ main {
 
 #whyphotodiv2 {
   position: absolute;
-   background-color: greenyellow;
+  background-color: greenyellow;
   border: 1px solid green;
   width: 60%;
-  margin-top: 10%;
+  margin-top: 15%;
   left: 20%;
   height: 500px;
 }
@@ -118,7 +118,7 @@ main {
   width: 50%;
   margin: 0 auto;
   padding: 4%;
-    background-color: green;
+  background-color: green;
 }
 
 #wrapper{
