@@ -117,14 +117,16 @@ main {
 #CamSpecTitle{
   width: 50%;
   margin: 0 auto;
-  padding: 4%;
-  background-color: green;
+  padding: 15px;
+  background-color: lightblue;
+  
 }
 
 #wrapper{
   display: flex;
 position: absolute;
-  margin-left:20%;
+  margin-left:23%;
+  margin-right: 4%;
 
 }
 
@@ -137,7 +139,7 @@ position: absolute;
 }
 #CamSpec2{
   width: 36%;
-  background-color: lightgray;
+  background-color: tomato;
   margin: 1%;
   padding: 1%;
 }
