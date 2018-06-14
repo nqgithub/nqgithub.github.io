@@ -13,7 +13,7 @@ nav {
   display: flex;
   align-items: center;
   color: white;
-  background-color: darkgrey;
+  background-color: lightskyblue;
   opacity: .9;
   text-indent: 50px;
   text-align: left;
@@ -164,7 +164,7 @@ footer {
   position: absolute;
   bottom: 15px;
   width: 100%;
-  background-color: darkgray;
+  background-color: lightskyblue;
   opacity:.9;
 }
 
