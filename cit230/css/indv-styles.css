@@ -93,15 +93,22 @@ main {
 
 .photos img{
   width: 30%;
+  margin-left: 300px;
   
 }
+
 
 .photos1 img{
-  width: 30%;
+  width: 80%;
+  padding-left: 20px;
   
 }
 
-
+.photos3 img{
+  width: 30%;
+  margin-left: 20px;
+  
+}
 
 
 
