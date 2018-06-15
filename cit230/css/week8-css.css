@@ -47,9 +47,19 @@ body {margin:0;background-image:url(images-folder/garden.jpg);background-repeat:
             flex-container {display: flex; width: 100%}
             div#left-col{display: flex; widows: 100%}
 flex-item {width: 100%; border: solid thin; }
+           
             main {}
 
             aside{}  
+
+
+#main-aside {
+  display: flex
+}
+
+
+
+
 
             footer {clear:left;position:fixed;text-align:center;width:100%;bottom:0px;}
 
