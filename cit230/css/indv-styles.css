@@ -70,12 +70,15 @@ main {
     color: black;
     text-align: left;
     background-image:url("../../girl-and-clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 340px;
     
 }
 
 #welcometag {
     text-align: center;
-    width: 100%;
+    width: 95%;
     margin:auto;
     padding: 5px;
   
@@ -87,7 +90,7 @@ main {
 #home2 > div{
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
@@ -100,9 +103,21 @@ main {
 
 
 
+
+
+.text-backdrop {
+    background-color: white;
+
+  
+}
+
+
+
+
 #skillsbox {
   margin-left: 10%;
   width: 260px;
+  margin-top: 15px;
   
 }
 
@@ -112,73 +127,41 @@ main {
                 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#temple-2A img{
-  width: 20%;
+#temple-straight {
+  margin-left: 10%;
+  width: 260px;
   
 }
 
+                #temple-straight-photo{
+                    width: 200px;
+                  
+                }
 
 
-.photos {
-  width: 100%;
-  margin: auto;
-}
-
-
-.skillsphoto {
-  margin-left: 2px
+#polaroid-temple {
+  margin-right: 0;
+  width: 140px;
   
 }
 
+                #polaroid-temple-photo {
+                    width: 110px;
+                  
+                }
 
-
-.photos img{
-  width: 150px;
-  margin:auto;
-  text-align: center;
+#maridian-temple-aside {
+  margin-left: 10%;
+  width: 260px;
   
 }
 
-.photos p {
-    width: 100%;
-    text-align: center;
-    
-  
-}
+                #maridian-temple-aside-photo {
+                    width: 200px;
+                  
+                }
 
-
-
-
+               
 
 
 #whyphotodiv2 {
