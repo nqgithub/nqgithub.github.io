@@ -166,13 +166,39 @@ main {
 
 #whyphotodiv2 {
   position: absolute;
-  background-color: greenyellow;
+  background-color: lightblue;
   border: 1px solid green;
-  width: 60%;
-  margin-top: 20%;
-  left: 20%;
-  height: 500px;
+  margin-top: 450px;
+  left: 270px;
+  height: 250px;
+  width: 450px;
 }
+
+
+
+#capture-equipment-video-background {
+  position: absolute;
+  background-color: silver;
+  border: 1px solid grey;
+  opacity: .91;
+  margin-top: 450px;
+  left: 270px;
+  height: 250px;
+  width: 450px;
+
+}
+
+          #capture-equipment-video {
+            opacity:none;
+            width: 95%;
+            height: 180px;
+            padding: 9px;
+          }
+
+
+
+
+
 
 /* camera specs */
 #CamSpecTitle{
@@ -220,8 +246,8 @@ position: absolute;
 
 
 footer {
-  position: absolute;
-  bottom: 15px;
+  position: fixed;
+  bottom: 3px;
   width: 100%;
   background-color: lightskyblue;
   opacity:.9;
@@ -229,14 +255,14 @@ footer {
 
 
 
-footer ul{
-  list-style: none;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content:space-around;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  
-}
+        footer ul{
+          list-style: none;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content:space-around;
+          padding-top: 15px;
+          padding-bottom: 15px;
+
+        }
 
 
