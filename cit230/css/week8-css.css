@@ -5,7 +5,9 @@ body {margin:0;background-image:url(images-folder/garden.jpg);background-repeat:
             nav ol {text-align:center}
             nav ol#rocks li {display:inline;padding:1em;}
             nav ul li {display:list-item;}
+            
             div#left-col ul li{list-style-type: hiragana;}  
+            
             main b{color:red;font-size:36px;margin-left:50px;}
             main img {height: 10%;width: 10%;}
                        
