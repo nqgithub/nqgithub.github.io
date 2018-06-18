@@ -260,7 +260,6 @@ div#bullets-cameras-and-equipment ol li{list-style-type:disc;}
 }
 
           #capture-equipment-video {
-            opacity:none;
             width: 95%;
             height: 180px;
             padding: 9px;
@@ -313,7 +312,7 @@ div#bullets-cameras-and-equipment ol li{list-style-type:disc;}
 
 #CamSpec1-and-CamSpec2 {
   width: 210px;
-  height: ;
+/*  height: ;*/
   margin-left: 5px;
   margin-top: 15px;
   padding: 5px;
@@ -342,7 +341,7 @@ div#bullets-cameras-and-equipment ol li{list-style-type:disc;}
 }
 
           #camera-shutter-audio {
-            width: px;
+            /* width: px;*/
   
             }
 
