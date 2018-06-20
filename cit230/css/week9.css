@@ -1,6 +1,6 @@
   /*body {margin:0;background-image: url(../ponder-prove/images/garden.jpg);background-repeat:repeat;background-position:center top;background-attachment:fixed;  }*/ body {margin:0;}
 header {background-image: url(../ponder-prove/images-folder/stones2133.jpg)}    
-
+div#lef-col img {width: 10%}
             nav {color:#00FF00; background-color:rgba(247,209,210,.5);border:solid thin green;text-indent:50px;} 
             nav ol {text-align:center}
             nav ol#rocks li {display:inline;padding:1em;}
@@ -60,4 +60,17 @@ header {background-image: url(../ponder-prove/images-folder/stones2133.jpg)}
             div#right-col{background-color:green;}
             aside{background-color:blue;}
             footer{background-color:#0CF;}
-            body {background-color:#DDF; border: 1px solid blue;}		 
+            body {background-color:#DDF; border: 1px solid blue;}
+
+            div#left-col, main, aside{font-size: 1vw}
+
+@media screen and (max-width:1200px) {
+  div#left-col{background-color: blue;}
+}
+
+nav a {display:block; width:100%;text-align: center;}
+main {background-color: yellow;}
+aside {background-color: red;}
+nav {background-color: purple;}
+
+(footer)
