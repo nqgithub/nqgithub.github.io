@@ -420,8 +420,8 @@ footer ul {
   #home1 {
     position: absolute;
     top: 15%;
-    /*    background-color:lightgreen;*/
-    /*    color: black;*/
+    background-color:lightgreen;
+/*        color: black;*/
     width: 237px;
     height: 580px;
 
