@@ -79,7 +79,8 @@ main {
   background-image: url("../../girl-and-clouds.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 90px;
+  padding-bottom: 20px;
+  
 
 
 }
@@ -87,10 +88,10 @@ main {
 
 
 #home2 > div {
-  display: flex;
+  display:flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-
+  
 }
 
 
@@ -188,13 +189,13 @@ div#bullets-cameras-and-equipment ol li {
 
 #skillsbox {
   margin-left: 10%;
-  width: 80px;
+  width: 260px;
   margin-top: 15px;
 
 }
 
 #skillsphoto {
-  width: 20%;
+  width:100%;
 
 }
 
@@ -396,6 +397,7 @@ footer ul {
 
 
 
+/*
 @media screen and (max-width:600px) {
 
   body {
@@ -463,13 +465,13 @@ footer ul {
 
 #skillsbox {
   padding: 3%;
-  width: 360%;
+  width: 100%;
   margin-top: 15px;
 
 }
 
 #skillsphoto {
-  width: 100%;
+  width: 50%;
 
 }
 
@@ -493,3 +495,4 @@ footer ul {
 
 
 }
+*/
