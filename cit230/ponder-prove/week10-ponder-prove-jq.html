@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>week10-ponder-prove-completed-jq</title>
-    <link href="../css/week10.css" rel="stylesheet" type="text/css">
+    <link href="../css/week9.css" rel="stylesheet" type="text/css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
     </script>
 
     <script>
@@ -20,43 +20,43 @@
                 alert("Hello, this is a paragraph");
             });
 
-           
-            
-            
+            $("#enterName").click(function () {
+                alert("Hello " + document.alertform.yourname.value + " please type in your fullname");
+            });
 
-            $().(function () {
+            $("#major").mouseenter(function () {
                 alert("Hello " + document.alertform.yourname.value + " make sure you select CIT!!!");
             });
 
-            $().(function () {
-                    $()("background-color", "blue");
+            $("#changeBcolor").hover(function () {
+                    $(this).css("background-color", "blue");
                 },
                 function () {
                     $(this).css("background-color", "red");
                 });
 
-            $().hover(function () {
-                    $(this)(" YES! ");
+            $("#yes").hover(function () {
+                    $(this).append(" YES! ");
                 },
                 function () {
                     $(this).append(" I MEAN AFFIRMATIVE! ");
                 });
 
-            $().(function () {
+            $("#colorHide").mouseleave(function () {
                 $(this).css("background-color", "green");
             });
-            $("#colorHide")(function () {
-                $(this)("slow");
+            $("#colorHide").dblclick(function () {
+                $(this).hide("slow");
             });
 
-            $().click(function () {
+            $("button").click(function () {
                 $("#p30").css("background-color", "yellow");
                 $("#p31").css("background-color", "purple");
                 $("#p32").css("background-color", "green");
             });
 
-            $().click(function () {
-                $().("slow");
+            $("#flip").click(function () {
+                $("#panel").slideDown("slow");
             });
 
             $("#flip").dblclick(function () {
@@ -74,20 +74,20 @@
         <p class="sitebranding">for all your rock needs visit <a href="http://the-rock-market.com">the Rock Market</a></p>
         <h2>(tagline) Rock Success is in the <span class="docintro">Eyes of the Beholder &amp; Me!</span></h2>
 
-        
-        
-        
-        
+    
+    
+    
+    
     </header>
 
     <nav>
         <ol id="rocks">
-            <li> <a href="foods-using-rocks.html">Foods Using Rocks</a> </li>
-            <li> <a href="history-of-rocks.html">History of Rocks</a> </li>
-            <li> <a href="rock-therapy.html">Rock Therapy</a> </li>
-            <li> <a href="rock-clothes.html">Rock Clothes</a></li>
-            <li><a href="rock-jewelry.html">Rock Jewelry</a></li>
-            <li> <a href="week4-ponder-prove-anchors.html#fx">Featured Market Items</a> </li>
+            <li>  <a href="foods-using-rocks.html" class="w3-bar-item w3-button w3-mobile">Foods Using Rocks</a></li>
+            <li> <a href="history-of-rocks.html" class="w3-bar-item w3-button w3-mobile">History of Rocks</a></li>
+            <li><a href="rock-therapy.html" class="w3-bar-item w3-button w3-mobile">Rock Therapy</a></li>
+            <li><a href="rock-clothes.html" class="w3-bar-item w3-button w3-mobile">Rock Clothes</a> </li>
+            <li><a href="rock-jewelry.html" class="w3-bar-item w3-button w3-mobile">Rock Jewelry</a> </li>
+            <li> <a href="week4-ponder-prove-anchors.html#fx" class="w3-bar-item w3-button w3-mobile">Featured Market Items</a></li>
         </ol>
     </nav>
     <div class="flex-container">
@@ -108,14 +108,14 @@
             <input type="text" id="enterName" name="yourname" placeholder="Please enter your full name" required>
             <br>
             <br>  
-            <div>Click to slide down panel; double click to close</div>
-            <div>
-                <div style="background-color:#D94A38; width:20%; height:100px; margin-left:auto;margin-right:auto;">Hello</div>
+            <div id="flip">Click to slide down panel; double click to close</div>
+            <div id="panel">
+                <div id="changeBcolor" style="background-color:#D94A38; width:20%; height:100px; margin-left:auto;margin-right:auto;">Hello</div>
             </div>
             <br>
             <br>
             <label>Do you like this website?</label>
-            <label for="yes">Yes</label>
+            <label id="yes" for="yes">Yes</label>
             <input type="radio" id="yes" name="likeit" value="Yes" checked="checked" />
             <label for="no">No</label>
             <input type="radio" id="no" name="likeit" value="No">
@@ -133,7 +133,7 @@
             <br>
             <ul>
                 <li>
-                    <label for="cit">Computer Information Technology</label>
+                    <label id="major" for="cit">Computer Information Technology</label>
                     <input type="checkbox" id="cit" value="Computer Information Technology" checked>
                 </li>
                 <br>
@@ -172,21 +172,21 @@
 
             <label for="comment">Message:</label>
             <br>
-            <textarea cols="40" rows="10" onfocus="this.value='';this.onfocus=null" required>Please type your message</textarea>
+            <textarea id="colorHide" cols="40" rows="10" onfocus="this.value='';this.onfocus=null" required>Please type your message</textarea>
             <br>
             <br>
 
             <label for="verify">&nbsp;</label>
-            <input type="button" Value="Verify">
+            <button id="p30" value="Verify">Verify</button>
 
             <label for="submit">&nbsp;</label>
-            <button type="submit" name="Submit">Submit</button>
+            <button id="p31"  value="Submit">Submit</button>
 
             <label for="reset">&nbsp;</label>
-            <input type="reset" value="Reset">
+            <button id="p32"  value="Reset">Reset</button>
             <br>
             <br>
-            Change the background color of all above buttons
+            <button>Change the background color of all above buttons</button>
 
         </form>
     </div>
@@ -225,7 +225,7 @@
         <br>
         <br>
     </aside>
-    </div> 
+    </div>
     <footer>
         <!--<h3>(the footer section)</h3>-->
         <ul>
