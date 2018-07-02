@@ -8,17 +8,35 @@
   <title>w10-js-internal-page.html</title>
 
 
-   <link href="/cit230/css/indv-styles.css" rel="stylesheet" type="text/css">
+  <link href="/cit230/css/indv-styles.css" rel="stylesheet" type="text/css">
 
 
-      
+
   <script type="text/javascript">
-      
-//    <p>JScript goes here<p>  
-  
-  
-  </script>    
-      
+    //    <p>JScript goes here<p>  
+
+    {
+      var x = 12 - 6 + 7;
+      document.getElementById("math").innerHTML = x;
+    }
+
+    function displayDate() {
+
+      document.getElementById("time").innerHTML = Date();
+    }
+
+
+    window.alert("Hello! You did it!");
+  </script>
+
+
+
+
+  <style type="text/css">
+    .text-color {
+      color: purple;
+    }
+  </style>
 
 
 
@@ -60,8 +78,25 @@
   <main>
     <!-- <h3>(the middle area)</h3> -->
 
-    <div id="home1" class="background-backdrop">
+    <div id="home1" class="background-backdrop" class="text-color">
       Home 1
+      <div>
+
+        <p>Click the button to display the date.</p>
+
+        <button onclick="displayDate()">The time is?</button>
+
+        <p id="time"></p>
+
+      </div>
+
+      <br>
+      <br>
+
+      <div>
+        <p onclick="this.innerHTML='Yay! You clicked on me!!!' "> Click me! Click me!</p>
+
+      </div>
 
     </div>
 
@@ -77,38 +112,52 @@
             <p class="text-backdrop">Advance your Photography Skills</p>
           </div>
 
-        
-          
+
+
           <div id="temple-straight">
             <img id="temple-straight-photo" src="/temple-1.JPG" alt="temple1">
             <p class="text-backdrop">The Meridian Temple</p>
           </div>
-          
+
         </div>
-        
-        
+
+
         <div>
-          
+
           <div id="polaroid-temple">
             <img id="polaroid-temple-photo" src="/temple-2.JPG" alt="insta print temple photo2">
-            
+
             <p class="text-backdrop">Polaroid of the Meridian Temple</p>
           </div>
-          
-          
-          
+
+
+
           <div id="meridian-temple-aside">
             <img id="meridian-temple-aside-photo" src="/temple-3.JPG" alt="side pic of temple">
             <p class="text-backdrop">The Meridian Temple from aside</p>
           </div>
+
         </div>
       </div>
 
 
     </div>
 
-    <div id="home3" class="background-backdrop">
+    <div id="home3" class="background-backdrop" class="text-color">
       Home 3
+
+      <div>
+        <p>Hey, Hey, Over here! <br> <br>The result of 12 - 6 + 7:</p>
+
+        <p id="math"></p>
+
+        <br>
+        <br>
+
+        <p>Click me! Click me!</p>
+
+
+      </div>
 
     </div>
 

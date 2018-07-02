@@ -5,7 +5,7 @@
   <meta name="keywords" content="photogrphy,cameras,capture,capture cameras,capture camera equipment">
   <meta name="description" content="latest cameras and camera gear">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>index.html</title>
+  <title>w10-jQ-internal-page.html</title>
 
 
   <link href="/cit230/css/indv-styles.css" rel="stylesheet" type="text/css">
@@ -13,11 +13,46 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
   </script>
 
-<script>
-  
-<!--  <h1>JQ Goes here</h1>-->
-  
-</script>
+
+  <script>
+    //<!--  <h1>JQ Goes here</h1>-->
+
+    $(document).ready(function() {
+          $("button").click(function() {
+              $("#delete-text)".hide();
+              });
+          });
+
+        $(document).ready(function() {
+          $("p").dblclick(function() {
+            $(this).hide();
+          });
+        });
+
+        $(document).ready(function() {
+          $("p").on({
+            mousecenter: function() {
+              $(this).css("background-color", "lightgray");
+            },
+            mouseleave: function() {
+              $(this).css("background-color", "green");
+            },
+            click: function() {
+              $(this).css("background-color", "yellow");
+            }
+          });
+        });
+  </script>
+
+
+
+
+  <style type="text/css">
+    .text-color {
+      color: purple;
+    }
+  </style>
+
 
 
 
@@ -59,8 +94,19 @@
   <main>
     <!-- <h3>(the middle area)</h3> -->
 
-    <div id="home1" class="background-backdrop">
+    <div id="home1" class="background-backdrop" class="text-color">
       Home 1
+
+      <p>If you double-click on me, I will disappear.</p>
+      <p>Click me away too!</p>
+      <p>Wait, wait, wait, don't do it...ahhhh</p>
+
+      <br>
+      <br>
+
+      <p>Click on me and move the mouse pointer on and off this paragraph.</p>
+
+
 
     </div>
 
@@ -106,10 +152,18 @@
 
     </div>
 
-    <div id="home3" class="background-backdrop">
+    <div id="home3" class="background-backdrop" class="text-color">
       Home 3
 
+      <p>Click the button bellow and watch the paragraph disappear!</p>
+      <p id="delete-text">Please don't click the button....please oh please...</p>
+
+      <button>Click me!</button>
+
+
     </div>
+
+
 
     <!-- <h3> Black bar underneath or behind the links in the footer.</h3> -->
   </main>
