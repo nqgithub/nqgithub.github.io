@@ -7,28 +7,9 @@
   <body onload = "loadMap()">
     <h2>Dubai Hotels</h2>
     <div id = "map" style = "width:640px; height:480px;"></div>
-      <script>
-
-        
-        function getJSONMarkers() {
-          const markers = [
-            {
-              name:"Rixos The Palm",
-              location: [25.1212,55.1535]
-                
-            },
-            {
-              name: "Shangri-La Hotel",
-              location: [25.2084, 55.2719]
-            },
-            {
-              name: "Grand Hyatt",
-              location: [25.2285, 55.3273]
-            }
-          ];
-          return markers;
-        }
-
+    <script type="text/javascript" src="week11-json-data.json"></script> 
+      
+<script>
         function loadMap() {
           // Initialize Google Maps
           const mapOptions = {
@@ -38,13 +19,13 @@
           const map = new google.maps.Map(document.getElementById("map"),mapOptions);
 
           // Load JSON Data
-          const hotelMarkers = getJSONMarkers();
+          var mydata = JSON.parse(data);
 
           // Initialize Google Markers
-          for(hotel of hotelMarkers) {
+          for(x=0;x<3;x++) {
             let marker = new google.maps.Marker({
             map:map,
-              position: new google.maps.LatLng(hotel.location[0],hotel.location[1]), title:hotel.name
+              position: new google.maps.LatLng(hotel.location[0],mydatac[x].location[0],mydata[x].location[1]), title:hotel.name
                 
                           
             })

@@ -7,7 +7,9 @@ div#lef-col img {width: 10%}
             nav ul li {display:list-item;}
             div#left-col ul li {list-style-type: hiragana}
             main b{color:red;font-size:36px;margin-left:50px;}
-            main img {height:20%; width:20%;}
+           
+
+            main figure {height:20%; width:20%;}
                        
             footer {color:rgb(0%,100%,0%);} 
             footer ul{margin-top:0;} 
