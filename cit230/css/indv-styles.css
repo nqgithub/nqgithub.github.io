@@ -289,10 +289,7 @@ div#bullets-cameras-and-equipment ol li {
   position: absolute;
   margin-top: 440px;
   height: 200px;
-  width: 600px;
 
-  /*  margin-left:5px;*/
-  /*  margin-right: 210px;*/
 }
 
 
@@ -308,13 +305,13 @@ div#bullets-cameras-and-equipment ol li {
 
 
 #CamSpec1-and-CamSpec2 {
-  width: 210px;
-  /*  height: ;*/
+  display: flex;
+  width: 250px;
   margin-left: 5px;
   margin-top: 15px;
   padding: 5px;
-  background-color: orange;
-
+  background-color: green;
+  
 }
 
 
@@ -322,10 +319,10 @@ div#bullets-cameras-and-equipment ol li {
 
 
 #CamSpec1 {
-  width: 30%;
-  background-color: lightgreen;
-  margin-left: 135px;
+  background-color: darkred;
+  margin-left: 280px;
   margin-top: 15px;
+  width: 50%;
   padding: 5px;
 }
 
@@ -333,7 +330,7 @@ div#bullets-cameras-and-equipment ol li {
   width: 250px;
   background-color: beige;
   /*  margin-right: 90px;*/
-  margin-left: 135px;
+  margin-right: 15px;
   margin-top: 15px;
   padding: 5px;
 }

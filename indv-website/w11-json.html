@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>California Beachs</title>
+</head>
+
+<body onload="loadMap()">
+  <h2>California Beachs</h2>
+  <div id="map" style="width:640px; height:480px;"></div>
+  <script type="text/javascript" src="week11-json-data.json"></script>
+
+  <script>
+    function loadMap() {
+      const mapOptions = {
+        center: new google.maps.LatLng(33.7701, 118.1937),
+        zoom: 11
+      }
+      const map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+      var mydata = JSON.parse(data);
+
+      for (x = 0; x < 3; x++) {
+        let marker = new google.maps.Marker({
+          map: map,
+          position: new google.maps.LatLng(hotel.location[0], mydatac[x].location[0], mydata[x].location[1]),
+          title: hotel.name
+
+
+        })
+      }
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+</body>
+</html>

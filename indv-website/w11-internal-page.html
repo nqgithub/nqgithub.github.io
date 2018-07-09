@@ -5,26 +5,25 @@
   <meta name="keywords" content="photogrphy,cameras,capture,capture cameras,capture camera equipment">
   <meta name="description" content="latest cameras and camera gear">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ANYWHERE. ANYTIME.</title>
+  <title>The Art</title>
 
 
   <link href="../cit230/css/indv-styles.css" rel="stylesheet" type="text/css">
 
-
-
 </head>
 
 <body>
-  <header>
 
-    <!-- <p>(have a black banner underneath or behind the word <i>Capture</i>)</p>
-            <p>(tagline) Start saving memories with just a simple click.</p> -->
+  <header>
+    <!-- <h3>(at the top in the header area)</h3> -->
+    <!-- <p>(have a black banner underneath or behind the word <i>Capture</i>)</p> -->
+    <!-- <p>(tagline) Start saving memories with just a simple click.</p> -->
   </header>
 
 
   <nav>
 
-    <h1 class="logo">Capture</h1>
+    <h1 class="logo">Capture </h1>
 
     <ol>
 
@@ -47,7 +46,6 @@
   </nav>
 
 
-
   <main>
     <!-- <h3>(the middle area)</h3>
                       <p> Picture goes to the center of the screen </p>
@@ -62,28 +60,75 @@
     </div>
 
     <div id="home2">
-      <div id="CamSpec1-and-CamSpec2">
 
-        <div>
-          <h3> ANYWHERE. ANYTIME. </h3>
-          <p> Where and when can I use my <i>Capture</i> camera? <i>Capture</i> cameras can be used anywhere and at any time! <i>Capture</i> cameras and equipment are long lasting durable cameras. Whether you are outside camping, on the beach or climbing one of the highest peaks around <i>Capture</i> will get the job done. Even use your camera and gear at weddings, birthday parties, family photos or at any kind of social gathering. No matter your location Capture is sure to come out on top. </p>
-        </div>
-
-        <div id="wrapper">
-
-          <div id="CamSpec1">
-            <p>This is where you will select the camera and it will show you the specific specs for each camera.(picture of each camera will be included as well. To show detail of what the individual camera looks like).</p>
-          </div>
+      <h3>THE ART</h3>
+      <p> The art of photography and video production is one of man’s earliest enjoyments in life. Photography is a calming, soothing hobby that many individuals still now enjoy. So, let’s go ahead and tap into your creative spirit, capture your best image and bring your photos to life today! </p>
 
 
-          <div id="CamSpec2">
-            <p>This is where some really cool content will go...</p>
-          </div>
+      <div>
+        <ol>
+          <li><a href="(3)%20sharpenyourskills.makememorieslast.html">Sharpen your skills. Make memories last.</a></li>
 
-        </div>
+
+          <li><a href="(10)whyphotographwithcapture.html"> Why Photograph with <i>Capture</i>?</a></li>
+        </ol>
+      </div>
+
+
+      <div onload="loadMap()">
+        <p>Explore Great places to take photos!</p>
+        <div id="map" style="width:480px; height:380px;"></div>
+        <script>
+          function getJSONMarkers() {
+            const markers = [{
+                name: "Long Beach California",
+                location: [33.7701, 118.1937]
+
+              },
+              {
+                name: "California State University - CSU",
+                location: [37.871853, -122.258423]
+              },
+              {
+                name: "Sunset Beach",
+                location: [33.4259, -118.04502]
+              }
+            ];
+            return markers;
+          }
+
+          function loadMap() {
+            // Initialize Google Maps
+            const mapOptions = {
+              center: new google.maps.LatLng(33.7701, 118.1937),
+              zoom: 11
+            }
+            const map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+            
+            const hotelMarkers = getJSONMarkers();
+
+            
+            for (hotel of hotelMarkers) {
+              let marker = new google.maps.Marker({
+                map: map,
+                position: new google.maps.LatLng(hotel.location[0], hotel.location[1]),
+                title: hotel.name
+
+
+              })
+            }
+          }
+        </script>
+        
+        <script src = "https://maps.googleapis.com/maps/api/js"></script>
 
       </div>
+
+
+
     </div>
+
 
     <div id="home3">
       Home 3
@@ -92,7 +137,6 @@
 
     <!-- <h3> Black bar underneath or behind the links in the footer.</h3> -->
   </main>
-
 
 
 
@@ -121,7 +165,8 @@
   </footer>
 </body>
 </html>
-     
+
+
       
   
 
