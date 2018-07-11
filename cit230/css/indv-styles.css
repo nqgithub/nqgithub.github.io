@@ -38,7 +38,7 @@ nav ol {
 }
 
 .logo {
-  display: inline;
+  text-align: center;
   color: white;
 }
 
@@ -73,8 +73,7 @@ main {
   position: absolute;
   left: 20%;
   width: 60%;
-  height: 530px;
-  /*    color: black;*/
+  height: 1030px;
   text-align: left;
   background-image: url("../../girl-and-clouds.jpg");
   background-repeat: no-repeat;
@@ -388,16 +387,18 @@ footer ul {
 
 
 
+
 @media screen and (max-width:1200px) {
 
 
   .logo {
-    font-size: 3em;
+    font-size: 5em;
     font-style: italic;
-    margin-left: 20%;
+    background-color: maroon;
   }
 
 
+  
   body {
     color: orange;
     font-family: arial, helvetica;
@@ -427,10 +428,17 @@ footer ul {
     justify-content: space-around;
     text-align: center;
     display: flex;
-
+    font-size: 2em;
 
   }
 
+  
+  .text-backdrop {
+  background-color: white;
+  font-size: 1.8em;
+
+}
+  
 
   #home1 {
     display: none;
@@ -456,14 +464,14 @@ footer ul {
   #skillsbox {
     display: block;
     padding: 3%;
-    width: 100%;
+    width: 70%;
     margin-top: 15px;
 
   }
 
   #skillsphoto {
     display: block;
-    width: 140%;
+    width: 120%;
 
   }
 
@@ -471,35 +479,41 @@ footer ul {
   #temple-straight {
     display: block;
     margin-left: 15%;
-    width: 100%;
+    width: 80%;
+/*    background-color: greenyellow;*/
 
   }
 
   #temple-straight-photo {
     display: block;
-    width: 200px;
+    width: 90%;
 
   }
 
 
   #polaroid-temple {
     display: block;
-    /*  width: 0%;*/
+    margin-left: 10%;
   }
 
   #polaroid-temple-photo {
     display: block;
-    width: 100%;
+    width: 88%;
 
   }
 
   #meridian-temple-aside {
     display: block;
-    width: 15%;
+    width: 80%;
     margin-bottom: 100%;
-
+/*    background-color: greenyellow;*/
   }
 
+  
+  #meridian-temple-aside-photo {
+  width: 100%;
+
+}
 
 
   #home3 {
@@ -525,7 +539,7 @@ footer ul {
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
-
+    font-size:2em;
   }
 
 
