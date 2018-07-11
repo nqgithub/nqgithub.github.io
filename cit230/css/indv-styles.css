@@ -18,7 +18,7 @@ nav {
   text-indent: 50px;
   text-align: left;
   width: 100%;
-  
+
 }
 
 .logo {
@@ -286,7 +286,7 @@ div#bullets-cameras-and-equipment ol li {
   position: absolute;
   margin-top: 6%;
   height: 200px;
-/*  background-color: lightgreen*/
+  /*  background-color: lightgreen*/
 }
 
 
@@ -308,7 +308,7 @@ div#bullets-cameras-and-equipment ol li {
   margin-top: 15px;
   padding: 5px;
   background-color: green;
-  
+
 }
 
 
@@ -396,7 +396,7 @@ footer ul {
   }
 
 
-  
+
   body {
     color: orange;
     font-family: arial, helvetica;
@@ -430,13 +430,13 @@ footer ul {
 
   }
 
-  
-  .text-backdrop {
-  background-color: white;
-  font-size: 1.8em;
 
-}
-  
+  .text-backdrop {
+    background-color: white;
+    font-size: 1.8em;
+
+  }
+
 
   #home1 {
     display: none;
@@ -446,7 +446,7 @@ footer ul {
     left: 0%;
     width: 100%;
     padding-bottom: 0px;
-     background-image: url(" ");
+    background-image: url(" ");
   }
 
 
@@ -455,7 +455,7 @@ footer ul {
     display: block;
     flex-flow: row nowrap;
     justify-content: space-between;
-    
+
   }
 
 
@@ -478,8 +478,7 @@ footer ul {
     display: block;
     margin-left: 15%;
     width: 80%;
-/*    background-color: greenyellow;*/
-
+    /*    background-color: greenyellow;*/
   }
 
   #temple-straight-photo {
@@ -504,41 +503,42 @@ footer ul {
     display: block;
     width: 80%;
     margin-bottom: 100%;
-/*    background-color: greenyellow;*/
+    /*    background-color: greenyellow;*/
   }
 
-  
-  #meridian-temple-aside-photo {
-  width: 100%;
 
-}
+  #meridian-temple-aside-photo {
+    width: 100%;
+
+  }
 
 
   #home3 {
     display: none;
   }
 
-  
-  
+
+
   #capture-camera-specs-home2 {
-    position: relative;
-  background-image: none;
-  width: 100%;
-  margin-left: 0px;
+    position: fixed;
+    background-image: none;
+    width: 100%;
+    margin-left: 0px;
     left: 0;
-}
-  
-  
-  
+   bottom: 3px;
+  }
+
+
+
   #CamSpec2 {
-  position: relative;
-  left: 0;
-  
-}
-  
-  
-  
-  
+    position: relative;
+    left: 0;
+
+  }
+
+
+
+
 
   footer {
     display: block;
@@ -558,7 +558,7 @@ footer ul {
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
-    font-size:2em;
+    font-size: 2em;
   }
 
 
