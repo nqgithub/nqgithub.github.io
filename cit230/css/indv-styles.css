@@ -59,7 +59,7 @@ main {
 
 .bigtext {
   font-size: 1.2em;
-  
+
 }
 
 
@@ -173,9 +173,9 @@ div#bullets-cameras-and-equipment ol li {
 #home3 {
   position: absolute;
   right: 0%;
-  /*      background-color:lightcoral;*/
+  /*        background-color:black;*/
   width: 237px;
-  height: 580px;
+  height: 700px;
 
 }
 
@@ -254,8 +254,8 @@ div#bullets-cameras-and-equipment ol li {
 
 #capture-equipment-video-background {
   position: absolute;
-  background-color: silver;
-  border: 1px solid grey;
+  background-color: darkred;
+/*  border: 1px solid grey;*/
   opacity: .91;
   margin-top: 450px;
   left: 270px;
@@ -271,18 +271,22 @@ div#bullets-cameras-and-equipment ol li {
 }
 
 
-
+#the-cloud-wrapper {
+  display: flex;
+  margin-top: 10px;
+  height: 800px;
+  /*  background-color: lightgreen;*/
+}
 
 
 
 /* camera specs */
 
 #wrapper1 {
-  /*  display: flex;*/
   position: absolute;
-  margin-top: 150px;
-  width: 700px;
-
+  width: 95%;
+  height: 700px;
+  /*  background-color: lightgreen;*/
 }
 
 
@@ -292,19 +296,38 @@ div#bullets-cameras-and-equipment ol li {
   position: absolute;
   margin-top: 50%;
   height: 40%;
-/*    background-color: lightgreen*/
+  /*    background-color: lightgreen*/
 }
 
 
 
 #CamSpecTitle {
-  width: 25%;
-  margin-left: 15px;
-  margin-top: 15px;
-  padding: 5px;
+  position: absolute;
+  background-image: url(/girl-and-clouds.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 1000px;
+  width: 50%;
+  left: 20%;
+  padding: 25px;
   background-color: grey;
 
 }
+
+#capture-cameras-text {
+  background-color: rgba(255, 255, 255, .85);
+  padding: 5px;
+
+}
+
+
+#the-cloud-text {
+  background-color: rgba(255, 255, 255, .85);
+  padding: 5px;
+
+}
+
 
 
 #CamSpec1-and-CamSpec2 {
@@ -328,10 +351,36 @@ div#bullets-cameras-and-equipment ol li {
   height: 70%;
   width: 34%;
   padding: 5px;
- 
+
 }
 
+#capture-cameras-CamSpec1 {
+  position: absolute;
+  background-color: darkred;
+  margin-left: 2%;
+  margin-top: 2%;
+  top: 8%;
+  height: 30%;
+  width: 34%;
+  padding: 5px;
+
+}
+
+
+
+#the-cloud-CamSpec1 {
+  background-color: darkred;
+  height: 200px;
+  width: 35%;
+  padding: 8px;
+  margin-top: 300px;
+}
+
+
+
+
 #CamSpec2 {
+  position: absolute;
   width: 40%;
   background-color: beige;
   height: 70%;
@@ -341,8 +390,31 @@ div#bullets-cameras-and-equipment ol li {
   padding: 5px;
 }
 
+#capture-cameras-CamSpec2 {
+  position: absolute;
+  background-color: beige;
+  top: 40%;
+  width: 35%;
+  margin-left: 62%;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+
+#the-cloud-CamSpec2 {
+  background-color: beige;
+  margin-left: 25%;
+  padding: 8px;
+  height: 200px;
+  margin-top: 300px;
+
+
+}
+
+
 #camera-shutter-audio {
-  /* width: px;*/
+  padding: 5px;
+
 }
 
 
@@ -534,7 +606,7 @@ footer ul {
     width: 100%;
     margin-left: 0px;
     left: 0;
-   bottom: 3px;
+    bottom: 3px;
   }
 
 
