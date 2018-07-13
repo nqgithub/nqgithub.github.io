@@ -63,6 +63,19 @@ main {
 }
 
 
+.index-bigtext {
+  font-size: 1.8em;
+
+}
+
+
+.text-backdrop {
+  background-color: rgba(255, 255, 255, .85);
+
+
+}
+
+
 
 #home1 {
   position: absolute;
@@ -92,7 +105,7 @@ main {
 
 
 
-#home2 > div {
+#index-photos {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -169,6 +182,12 @@ div#bullets-cameras-and-equipment ol li {
 }
 
 
+.online-courses-head {
+  width: 20%;
+  padding: 15px;
+
+}
+
 
 #home3 {
   position: absolute;
@@ -183,11 +202,7 @@ div#bullets-cameras-and-equipment ol li {
 
 
 
-.text-backdrop {
-  background-color: white;
 
-
-}
 
 
 
@@ -218,36 +233,46 @@ div#bullets-cameras-and-equipment ol li {
 
 
 #polaroid-temple {
-  margin-right: 0;
-  /*  width: 0%;*/
+  margin-left: 570px;
+  width: 200px;
+  /*  background-color: lightgreen;*/
 }
 
 #polaroid-temple-photo {
-  width: 110px;
+  width: 190px;
 
 }
 
 #meridian-temple-aside {
-  margin-left: 10%;
-  /*  width: 15%;*/
+  margin-left: 60%;
+
 }
 
 #meridian-temple-aside-photo {
-  width: 200px;
+  width: 100%;
 
 }
 
+
+#sharpen-skills-head {
+  width: 95%;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 5px;
+  /*  background-color: lightgreen;*/
+}
 
 
 
 #whyphotodiv2 {
   position: absolute;
-  background-color: lightblue;
-  border: 1px solid green;
-  margin-top: 450px;
-  left: 270px;
-  height: 250px;
-  width: 450px;
+  background-color: darkred;
+  margin-top: 50px;
+  left: 20px;
+  height: 280px;
+  width: 30%;
 }
 
 
@@ -255,18 +280,18 @@ div#bullets-cameras-and-equipment ol li {
 #capture-equipment-video-background {
   position: absolute;
   background-color: darkred;
-/*  border: 1px solid grey;*/
+  /*  border: 1px solid grey;*/
   opacity: .91;
-  margin-top: 450px;
-  left: 270px;
-  height: 250px;
+  margin-top: 80px;
+  left: 30px;
+  height: auto;
   width: 450px;
 
 }
 
 #capture-equipment-video {
-  width: 95%;
-  height: 180px;
+  width: 430px;
+  height: 315px;
   padding: 9px;
 }
 
@@ -294,10 +319,12 @@ div#bullets-cameras-and-equipment ol li {
 #wrapper {
   display: flex;
   position: absolute;
-  margin-top: 50%;
+  margin-top: 30%;
   height: 40%;
-  /*    background-color: lightgreen*/
+/*      background-color: lightgreen*/
 }
+
+
 
 
 
@@ -336,18 +363,24 @@ div#bullets-cameras-and-equipment ol li {
   margin-left: 15px;
   margin-top: 15px;
   padding: 5px;
-  background-color: green;
+  
 
 }
 
 
-
+#capture-camer-specs-boxs {
+  display: flex;
+  position: absolute;
+  margin-top: 10px;
+  height: 40%;
+/*      background-color: lightgreen*/
+}
 
 
 #CamSpec1 {
   background-color: darkred;
   margin-left: 2%;
-  margin-top: 2%;
+  margin-top: 10%;
   height: 70%;
   width: 34%;
   padding: 5px;
@@ -384,11 +417,25 @@ div#bullets-cameras-and-equipment ol li {
   width: 40%;
   background-color: beige;
   height: 70%;
-  margin-left: 38%;
+  margin-top: 320px;
+  margin-left: 57%;
   margin-right: 15px;
-  margin-top: 15px;
   padding: 5px;
 }
+
+
+#anywhere-anytime-CamSpec2 {
+  position: absolute;
+  width: 30%;
+  background-color: beige;
+  height: 80%;
+  margin-top: 200px;
+  margin-left: 65%;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+
 
 #capture-cameras-CamSpec2 {
   position: absolute;
@@ -513,7 +560,7 @@ footer ul {
 
 
   .text-backdrop {
-    background-color: white;
+    background-color: rgba(255, 255, 255, .85);
     font-size: 1.8em;
 
   }
@@ -527,16 +574,17 @@ footer ul {
     left: 0%;
     width: 100%;
     padding-bottom: 0px;
-    background-image: url(" ");
+    /*    background-image: url(" ");*/
   }
 
 
 
   #home2 > div {
     display: block;
+    /*
     flex-flow: row nowrap;
     justify-content: space-between;
-
+*/
   }
 
 
