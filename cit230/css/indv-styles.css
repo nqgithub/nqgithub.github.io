@@ -271,10 +271,29 @@ div#bullets-cameras-and-equipment ol li {
   background-color: darkred;
   margin-top: 50px;
   left: 20px;
-  height: 280px;
-  width: 30%;
+  height: 320px;
+  width: auto;
 }
 
+
+#editing-box1 {
+  position: absolute;
+  background-color: darkred;
+  margin-top: 50px;
+  left: 20px;
+  height: auto;
+  width: 400px;
+}
+
+
+#how-to-videos-box1 {
+  position: absolute;
+  background-color: darkred;
+  margin-top: 50px;
+  left: 20px;
+  height: 340px;
+  width: 355px;
+}
 
 
 #capture-equipment-video-background {
@@ -294,6 +313,54 @@ div#bullets-cameras-and-equipment ol li {
   height: 315px;
   padding: 9px;
 }
+
+#the-cloud-video {
+  width: 350px;
+  height: 215px;
+  padding: 9px;
+}
+
+#how-to-videos-video{
+  width: 330px;
+  height: 215px;
+  padding: 9px;
+  background-color: none;
+}
+
+
+#sharpen-your-skills-video {
+  width: 370px;
+  height: 215px;
+  padding: 9px;
+}
+
+
+
+
+#sharpen-your-skills-photo {
+  width: 250px;
+  
+}
+
+pixlr-photo{
+  width: 50px;
+  
+}
+
+
+
+#sharpen-your-skills-textbox {
+  position: absolute;
+  background-color:beige;
+  margin-top: 50px;
+  margin-left: 630px;
+  left: 20px;
+  height: 320px;
+  width: 120%;
+  
+}
+
+
 
 
 #the-cloud-wrapper {
@@ -403,10 +470,12 @@ div#bullets-cameras-and-equipment ol li {
 
 #the-cloud-CamSpec1 {
   background-color: darkred;
-  height: 200px;
-  width: 35%;
+  height: 400px;
+/*  width: 35%;*/
+  width: 350px;
   padding: 8px;
-  margin-top: 300px;
+  margin-top: 100px;
+  
 }
 
 
@@ -452,7 +521,7 @@ div#bullets-cameras-and-equipment ol li {
   background-color: beige;
   margin-left: 25%;
   padding: 8px;
-  height: 200px;
+  height: 330px;
   margin-top: 300px;
 
 
