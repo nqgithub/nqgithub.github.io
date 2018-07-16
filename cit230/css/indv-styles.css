@@ -276,6 +276,18 @@ div#bullets-cameras-and-equipment ol li {
 }
 
 
+#why-photograph-box-1 {
+  position: absolute;
+  justify-content: center;
+  background-color: darkred;
+  margin-top: 50px;
+  left: 20px;
+  height: auto;
+  width: 300px;
+}
+
+
+
 #editing-box1 {
   position: absolute;
   background-color: darkred;
@@ -426,7 +438,7 @@ pixlr-photo{
 
 #CamSpec1-and-CamSpec2 {
   display: flex;
-  width: 31%;
+  width: 35%;
   margin-left: 15px;
   margin-top: 15px;
   padding: 5px;
@@ -446,25 +458,32 @@ pixlr-photo{
 
 #CamSpec1 {
   background-color: darkred;
-  margin-left: 2%;
+  margin-left: 10%;
   margin-top: 10%;
-  height: 70%;
-  width: 34%;
+  height: 125%;
+  width: 65%;
   padding: 5px;
 
+}
+
+
+#capture-cameras-photo-1 {
+  width: 230px;
+  
 }
 
 #capture-cameras-CamSpec1 {
   position: absolute;
   background-color: darkred;
-  margin-left: 2%;
-  margin-top: 2%;
+/*  margin-left: 2%;*/
+  margin-top: 10px;
   top: 8%;
   height: auto;
-  width: 34%;
+  width: 39%;
   padding: 5px;
 
 }
+
 
 
 
@@ -483,23 +502,46 @@ pixlr-photo{
 
 #CamSpec2 {
   position: absolute;
-  width: 40%;
+  width: 65%;
   background-color: beige;
-  height: 70%;
+  height: 65%;
   margin-top: 320px;
-  margin-left: 57%;
-  margin-right: 15px;
+  margin-left: 150%;
   padding: 5px;
 }
 
+#hand-selfie-photo {
+    width: 125%;
+    margin-left: -25px; 
+}
+
+#google-maps-photo {
+  width: 150px;
+  
+}
+
+
+
+#anywhere-anytime-CamSpec1 {
+  background-color: darkred;
+  margin-left: 1%;
+  margin-top: 120px;
+  bottom: 5px;
+  height: 110%;
+  width: 40%;
+  padding: 5px;
+
+}
+
+
 
 #anywhere-anytime-CamSpec2 {
-  position: absolute;
-  width: 30%;
   background-color: beige;
+  position: absolute;
+  width: 40%;
   height: 80%;
-  margin-top: 200px;
-  margin-left: 65%;
+  margin-top: 290px;
+  margin-left: 102%;
   margin-right: 15px;
   padding: 5px;
 }
@@ -514,6 +556,13 @@ pixlr-photo{
   margin-left: 62%;
   margin-top: 15px;
   padding: 5px;
+}
+
+#capture-camspec-camera-1 {
+    width: 210px;
+    margin-left: %;
+    margin-bottom: 10px;
+    
 }
 
 
@@ -540,6 +589,8 @@ pixlr-photo{
 
 
 }
+
+
 
 
 
