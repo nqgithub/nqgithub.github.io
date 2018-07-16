@@ -336,7 +336,7 @@ div#bullets-cameras-and-equipment ol li {
   width: 330px;
   height: 215px;
   padding: 9px;
-  background-color: none;
+/*  background-color: none;*/
 }
 
 
@@ -562,7 +562,7 @@ pixlr-photo{
 
 #capture-camspec-camera-1 {
     width: 210px;
-    margin-left: %;
+/*    margin-left: %;*/
     margin-bottom: 10px;
     
 }
